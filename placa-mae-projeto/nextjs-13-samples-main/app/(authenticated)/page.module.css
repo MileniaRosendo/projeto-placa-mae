@@ -1,0 +1,41 @@
+.div{
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  margin-right: 85%;
+  max-width: 100%;
+}
+
+.li {
+  margin-left: 34px;
+  margin-top: -78px;
+  border-bottom: none;
+  transition: color 0.3s ease;
+  color: rgb(0, 0, 0);
+  text-decoration: none; /* Remove a linha abaixo dos elementos li */
+  font-family: 'Helvetica', sans-serif; /* Define a fonte para Helvetica */
+  font-size: 200%; /* Ajusta o tamanho do texto */
+}
+
+.listaHorizontal {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end; /* Alinha à direita */
+}
+
+.listaHorizontal li {
+  margin-left: 200px;
+  border-bottom: none;
+  transition: 0.3s;
+}
+
+.listaHorizontal li a {
+  text-decoration: none; /* Remove a linha de decoração dos links */
+  color: inherit; /* Herda a cor do texto do elemento pai (.li) */
+}
+
+.listaHorizontal li:hover {
+  background-color: rgb(142, 84, 168);
+}
